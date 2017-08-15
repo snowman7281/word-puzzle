@@ -11,7 +11,7 @@ $(document).ready(function(){
       }
     };
     newSentence = codeSentence.join("");
-    console.log(newSentence);
+    $("#output").text(newSentence);
     event.preventDefault();
   });
 });
